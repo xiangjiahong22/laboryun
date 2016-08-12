@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>个人中心</title>
+		<title>会员中心</title>
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		
@@ -15,8 +15,8 @@
 					<h2>个人中心</h2>
 					<dl>
 						<dt><img src="img/triggle.png" />个人信息</dt>
-						<dd><a href="userCenter.html" class="active">个人中心</a></dd>
-						<dd><a href="userCenterMember.html">会员中心</a></dd>
+						<dd><a href="userCenter.html">个人中心</a></dd>
+						<dd><a href="userCenterMember.html" class="active">会员中心</a></dd>
 						<dd><a href="userCenterCard.html">绑定银行卡</a></dd>
 						<dd><a href="userCenterCash.html">我要提现</a></dd>
 					</dl>
@@ -43,28 +43,38 @@
 					</dl>
 				</div>
 				<div class="userRight">
-					<div class="topModule">
-						<div class="userModule">
-							<div class="pullLeft userPic">
-								<img src="img/userCenterPic.jpg" class="img-circle" alt="" />
-							</div>
-							<div class="pullLeft">
-								<p class="name">xiangjiahong22</p>
-								<p class="userLevel">
-									<a href="userCenterMember.html" class="levelBtn">VIP1</a>
-									<span class="levelTime">会员截止：20天13小时23秒</span>
-								</p>
-							</div>
-							<div class="pullRight balance">
-								我的余额：0.00
-								<a href="userCenterCash.html" class="themeBtn">申请提现</a>
-							</div>
-						</div>
-					</div>
 					<div class="infoModule">
-						<h1>交易记录</h1>
+						<h1>会员中心</h1>
 						<div class="infoCon">
-							
+							<h2 class="infoTit">会员购买</h2>
+							<div id="memberBuy">
+								<div class="box">
+									<span class="text">一级会员</span>
+									<span class="price pullRight">388.00</span>
+								</div>
+								<div class="box">
+									<span class="text">二级会员</span>
+									<span class="price pullRight">288.00</span>
+								</div>
+								<div class="box">
+									<span class="text">三级会员</span>
+									<span class="price pullRight">188.00</span>
+								</div>
+							</div>
+							<div class="memberChoose">
+								<span class="text">您确认购买<span class="level">一级会员</span></span>
+								<a href="#" class="memberBtn pullRight">购买会员</a>
+							</div>
+							<div class="memberPower">
+								<h2 class="infoTit">会员权限</h2>
+								<img src="img/memberPower.jpg" alt="" />
+								<ul class="memberList">
+									<li>年费会员简化:</li>
+									<li>一级会员:知识库</li>
+									<li>二级会员:知识库+在下课程</li>
+									<li>三级会员:知识库+在线课程+萝卜云</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
