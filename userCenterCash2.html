@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>个人中心</title>
+		<title>申请提现</title>
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		
@@ -16,10 +16,10 @@
 					<h2>个人中心</h2>
 					<dl>
 						<dt><img src="img/triggle.png" />个人信息</dt>
-						<dd><a href="userCenter.html" class="active">个人中心</a></dd>
+						<dd><a href="userCenter.html">个人中心</a></dd>
 						<dd><a href="userCenterMember.html">会员中心</a></dd>
 						<dd><a href="userCenterCard.html">绑定银行卡</a></dd>
-						<dd><a href="userCenterCash.html">我要提现</a></dd>
+						<dd><a href="userCenterCash.html" class="active">我要提现</a></dd>
 					</dl>
 					<dl>
 						<dt><img src="img/triggle.png" />萝卜阿瑟社区</dt>
@@ -44,53 +44,29 @@
 					</dl>
 				</div>
 				<div class="userRight">
-					<div class="topModule">
-						<div class="userModule">
-							<div class="pullLeft userPic">
-								<img src="img/userCenterPic.jpg" class="img-circle" alt="" />
-							</div>
-							<div class="pullLeft">
-								<p class="name">xiangjiahong22</p>
-								<p class="userLevel">
-									<a href="userCenterMember.html" class="levelBtn">VIP1</a>
-									<span class="levelTime">会员截止：20天13小时23秒</span>
-								</p>
-							</div>
-							<div class="pullRight balance">
-								我的余额：0.00
-								<a href="userCenterCash2.html" class="themeBtn">申请提现</a>
-							</div>
-						</div>
-					</div>
 					<div class="infoModule">
-						<h1>交易记录</h1>
+						<h1>申请提现</h1>
 						<div class="infoCon">
-							<table>
-								<thead>
-									<tr>
-										<th>交易类型</th>
-										<th>金额</th>
-										<th>时间</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>回答xiangjiahong22的问题</td>
-										<td>55.00</td>
-										<td>2015-12-12</td>
-									</tr>
-									<tr>
-										<td>回答xiangjiahong22的问题</td>
-										<td>55.00</td>
-										<td>2015-12-12</td>
-									</tr>
-									<tr>
-										<td>回答xiangjiahong22的问题</td>
-										<td>55.00</td>
-										<td>2015-12-12</td>
-									</tr>
-								</tbody>
-							</table>
+							<form action="">
+								<div class="formLine">
+									<span class="tit">到账银行卡：</span>
+									<input type="text" class="inp" placeholder="输入持卡人姓名"/>
+								</div>
+								<div class="formLine">
+									<span class="tit">提现金额：</span>
+									<input type="text" class="inp" placeholder="输入金额"/>
+								</div>
+								<div class="formLine">
+									<div class="cashInfoUl">
+										<ul>
+											<li>零钱余额:<span class="themeCr">1000元</span></li>
+											<li>提现手续费:<span class="themeCr">1000%</span></li>
+											<li>提现金额最低:<span class="themeCr">1000元</span></li>
+										</ul>
+										<input type="submit" class="themeBgBtn" value="申请提现"/>
+									<div>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>

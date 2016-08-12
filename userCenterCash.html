@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>个人中心</title>
+		<title>我要提现</title>
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		
@@ -16,10 +16,10 @@
 					<h2>个人中心</h2>
 					<dl>
 						<dt><img src="img/triggle.png" />个人信息</dt>
-						<dd><a href="userCenter.html" class="active">个人中心</a></dd>
+						<dd><a href="userCenter.html">个人中心</a></dd>
 						<dd><a href="userCenterMember.html">会员中心</a></dd>
 						<dd><a href="userCenterCard.html">绑定银行卡</a></dd>
-						<dd><a href="userCenterCash.html">我要提现</a></dd>
+						<dd><a href="userCenterCash.html" class="active">我要提现</a></dd>
 					</dl>
 					<dl>
 						<dt><img src="img/triggle.png" />萝卜阿瑟社区</dt>
@@ -44,27 +44,13 @@
 					</dl>
 				</div>
 				<div class="userRight">
-					<div class="topModule">
-						<div class="userModule">
-							<div class="pullLeft userPic">
-								<img src="img/userCenterPic.jpg" class="img-circle" alt="" />
-							</div>
-							<div class="pullLeft">
-								<p class="name">xiangjiahong22</p>
-								<p class="userLevel">
-									<a href="userCenterMember.html" class="levelBtn">VIP1</a>
-									<span class="levelTime">会员截止：20天13小时23秒</span>
-								</p>
-							</div>
-							<div class="pullRight balance">
-								我的余额：0.00
-								<a href="userCenterCash2.html" class="themeBtn">申请提现</a>
-							</div>
-						</div>
-					</div>
 					<div class="infoModule">
-						<h1>交易记录</h1>
+						<h1>我的余额</h1>
 						<div class="infoCon">
+							<div class="myBalance">
+								我的余额:<span class="balanceNum">0.00</span> <a href="userCenterCash2.html" class="themeBtn">申请提现</a>
+							</div>
+							<h2 class="infoTit">交易记录</h2>
 							<table>
 								<thead>
 									<tr>

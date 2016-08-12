@@ -1,7 +1,7 @@
 body,html,div,p,ul,li,ol,dl,dt,dd,img,a,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;font-family:"微软雅黑";}
 ul,li,dl,dt,dd{list-style: none;}
 a{text-decoration: none;outline: none;color: #333;}
-a:hover,a:focus{text-decoration: none;outline: none;border:none;color: #333;}
+a:hover,a:focus{text-decoration: none;outline: none;border:none;}
 a:visited {text-decoration: none;}
 img{border:0;}
 input,textarea{font-family: "微软雅黑";font-size: 14px;color: #666}
@@ -14,12 +14,19 @@ i,em{font-style: normal}
 .wrap{width: 1200px;margin: 0 auto;}
 .pullRight{float: right;}
 .pullLeft{float: left}
+.hide{display: none;}
+.viceCr{color: #6eb92a;}
 
+.themeBtn{display: inline-block;width: 103px;height: 40px;line-height: 40px;text-align: center;font-size: 14px;border:1px solid #fc6b00;
+	border-radius: 3px;color: #fc6b00;}
+.themeBtn:hover{border:1px solid #fc6b00;color: #fc6b00;}
+.themeCr{color: #fc6b00;}
 
+.themeBgBtn{display: inline-block;width: 103px;height: 40px;text-align: center;font-size: 14px;
+	border-radius: 3px;color: #fff;background: #fc6b00;border:none}
+.themeBgBtn:hover{color: #fff;background: #ff7916;}
 
-
-
-
+a.themeBgBtn{line-height: 40px;}
 
 
 
