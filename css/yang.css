@@ -1,0 +1,30 @@
+.header{background: #e8e8e8;padding: 15px 0;color: #666;}
+.header a{padding:0 20px;border-right: 1px solid #cfcfcf;color: #666;}
+
+.nav{padding: 35px 0;}
+.nav ul{margin-top: 16px;}
+.nav ul>li{float: left;width: 110px;text-align: center;cursor: pointer;padding: 10px 0;margin:0 4px;position: relative;border:1px solid transparent;}
+.nav ul>li:hover{color: #fc6b00;border:1px solid #fc6b00;}
+.nav ul>li:hover ol{display: block}
+.nav ul>li.active{color: #fc6b00;border:1px solid #fc6b00;}
+.nav ol{position: absolute;top: 41px;left: 0;z-index: 9999;width: 110px;text-align: center;background: #fff;
+    border:1px solid #ccc;box-shadow: 1px 1px 5px #333;color:#333;display: none}
+.nav ol li{padding: 8px 0;border-bottom: 1px solid #ccc;}
+.nav ol li:hover{color: #fc6b00}
+.nav ol li:last-child{border-bottom: none;}
+
+.flexslider{margin: 0;}
+.flex-control-nav{bottom: 0;}
+.flex-direction-nav{display: none;}
+.flexslider img{min-width: 1200px;}
+
+.introduce{text-align: center;padding: 75px 0;}
+.introduce h4{color: #666;font-size: 16px;padding-bottom: 10px;}
+.introduce ul{margin-top: 110px;}
+.introduce ul li{float: left;width: 14%;}
+.introduce ul li>div{width: 74px;height: 74px;margin: 0 auto;background: #d2d2d2;border-radius: 30px;}
+.introduce ul li>div.active{background: #fc6b00;}
+.introduce ul li>div:hover{background: #fc6b00;}
+.introduce ul li img{margin-top: 18px;}
+.introduce ul li h3{margin: 30px 0 18px 0;font-size: 16px;color: #666;}
+.introduce ul li p{color: #999;line-height: 18px;}
