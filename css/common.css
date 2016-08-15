@@ -16,6 +16,7 @@ i,em{font-style: normal}
 .pullLeft{float: left}
 .hide{display: none;}
 .viceCr{color: #6eb92a;}
+.themeCr{color: #fc6b00;}
 
 .themeBtn{display: inline-block;width: 103px;height: 40px;line-height: 40px;text-align: center;font-size: 14px;border:1px solid #fc6b00;
 	border-radius: 3px;color: #fc6b00;}
@@ -23,19 +24,34 @@ i,em{font-style: normal}
 .themeCr{color: #fc6b00;}
 
 .themeBgBtn{display: inline-block;width: 103px;height: 40px;text-align: center;font-size: 14px;
-	border-radius: 3px;color: #fff;background: #fc6b00;border:none}
+	border-radius: 3px;color: #fff;background: #fc6b00;border:none;margin-top: 20px;cursor: pointer;}
 .themeBgBtn:hover{color: #fff;background: #ff7916;}
 
 a.themeBgBtn{line-height: 40px;}
 
+/*翻页*/
+.page{font-size: 12px;margin-bottom: 30px;overflow: hidden;margin-top: 25px;}
+.page a{color: #777777;display: inline-block;padding: 5px 9px;border: 1px solid #dddddd;float: left;border-left: 0}
+.page a:hover,.page a:focus{background: #f4f4f4;color: #777777;}
+.page .previous a{border-left: 1px solid #ddd;border-bottom-left-radius: 3px;border-top-left-radius: 3px;}
+.page .next a{border-bottom-right-radius: 3px;border-top-right-radius: 3px;}
+.page a:visited{color: #777777;}
+.page a.active{background: #f4f4f4}
 
+/*uploadBtn*/
+#upload{position: relative;}
+.uploadBtn{background: #06b4f0;border:1px solid #00a0d7;line-height: 38px;display: inline-block;padding: 0 10px;
+	color: #fff;border-radius: 3px;}
+#upload input{position: absolute;left: 0;top: 0;opacity: 0;filter: alpha(opacity=0);}
 
-
-
-
-
-
-
+/*表单下拉框*/
+.styled-select select {background: transparent;width: 295px;padding: 5px;font-size: 14px;line-height: 25px;
+	border: none;height: 34px;-webkit-appearance: none; /*for chrome*/}
+.styled-select { width: 261px; height: 34px;overflow: hidden;background: url(../img/selectBg.png) no-repeat 95% #fff;font-size: 14px;
+	border: 1px solid #dcdcdc;border-radius: 3px;display: inline-block;vertical-align: middle;margin-right: 15px;margin-bottom: 10px;}
+.maxSelect select{width: 105%;}
+.maxSelect{width: 45%}
+.styled-select select:disabled{background: #eee}
 
 
 
