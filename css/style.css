@@ -149,14 +149,22 @@
 #cardList li .cardNum{float: right;color: #333333;}
 #cardList li .bankName .name{margin-top: 10px;font-size: 14px;color: #333333;}
 
-
-
-
-
-
-
-
-
+/*userCenterVideo*/
+#videoWrap h2{font-size: 16px;color: #666666;font-weight: normal;line-height: 70px;}
+#videoWrap h2 .num{display: inline-block;width: 22px;height: 22px;background: #6eb92a;font-size: 14px;color: #fff;line-height: 22px;
+	border-radius: 100%;text-align: center;}
+.videoCon .video{float: left;width: 690px;height: 380px;}
+.videoCon .videoInfo{float: right;width: 200px;}
+.videoCon .videoInfo h3{font-size: 16px;color: #666666;font-weight: normal;line-height: 40px;}
+.videoCon .video{}
+.score {font-size: 14px;color: #999999;}
+.score .star{display: inline-block;width: 15px;height: 15px;margin-right: -3px;}
+.score .star img{width: 15px;height: 15px;}
+.score .scoreNum{color: #666666;margin-left: 5px;}
+.videoInfo .teacher{font-size: 14px;color: #666666;line-height: 40px;}
+.videoInfo .follow{font-size: 14px;color: #666666;}
+.videoInfo .follow .star{display: inline-block;width: 15px;height: 15px;margin-right: 5px;vertical-align: middle;margin-top: -3px;}
+.videoInfo .follow .star img{width: 15px;height: 15px;display: inline-block;}
 
 
 

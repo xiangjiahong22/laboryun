@@ -27,8 +27,8 @@ i,em{font-style: normal}
 	border-radius: 3px;color: #fff;background: #fc6b00;border:none;margin-top: 20px;cursor: pointer;}
 .themeBgBtn:hover{color: #fff;background: #ff7916;}
 
-a.themeBgBtn{line-height: 40px;}
-
+a.themeBgBtn,span.themeBgBtn{line-height: 40px;}
+span.themeBgBtn{cursor: default;}
 /*翻页*/
 .page{font-size: 12px;margin-bottom: 30px;overflow: hidden;margin-top: 25px;}
 .page a{color: #777777;display: inline-block;padding: 5px 9px;border: 1px solid #dddddd;float: left;border-left: 0}
