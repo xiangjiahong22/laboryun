@@ -1,7 +1,7 @@
-.header{background: #e8e8e8;padding: 15px 0;color: #666;}
+.header{background: #fc6b00;padding: 15px 0;color: #666;}
 .header a{padding:0 20px;border-right: 1px solid #cfcfcf;color: #666;}
 
-.nav{padding: 35px 0;}
+.nav{padding: 35px 0;background: #fafafa;border-bottom: 1px solid #e6e6e6;}
 .nav ul{margin-top: 16px;}
 .nav ul>li{float: left;width: 110px;text-align: center;cursor: pointer;padding: 10px 0;margin:0 4px;position: relative;border:1px solid transparent;}
 .nav ul>li:hover{color: #fc6b00;border:1px solid #fc6b00;}
@@ -15,16 +15,70 @@
 
 .flexslider{margin: 0;}
 .flex-control-nav{bottom: 0;}
-.flex-direction-nav{display: none;}
-.flexslider img{min-width: 1200px;}
+#banner .flex-direction-nav{display: none}
+/*.flex-direction-nav{content: "\e139"}*/
+#banner img{min-width: 1200px;}
+/*#expertList .flex-control-nav{content: "\e139"}*/
+.flex-direction-nav a{height: 55px;}
+.flex-direction-nav a:before{content:"\e257" !important;font-family: "Glyphicons Halflings" !important}
+.flex-direction-nav a.flex-next:before{content:"\e258" !important;font-family: "Glyphicons Halflings" !important}
+#expertList .flex-control-nav{display: none}
+
 
 .introduce{text-align: center;padding: 75px 0;}
 .introduce h4{color: #666;font-size: 16px;padding-bottom: 10px;}
 .introduce ul{margin-top: 110px;}
 .introduce ul li{float: left;width: 14%;}
+.introduce ul li a{display: block;height: 74px;}
 .introduce ul li>div{width: 74px;height: 74px;margin: 0 auto;background: #d2d2d2;border-radius: 30px;}
 .introduce ul li>div.active{background: #fc6b00;}
 .introduce ul li>div:hover{background: #fc6b00;}
 .introduce ul li img{margin-top: 18px;}
 .introduce ul li h3{margin: 30px 0 18px 0;font-size: 16px;color: #666;}
 .introduce ul li p{color: #999;line-height: 18px;}
+
+
+.expert{background: #f4f4f6;padding-bottom: 95px;}
+#expertList{background: #f4f4f6;}
+#expertList .slides li{position: relative;}
+#expertList .slides li .expertDetail{position: absolute;bottom: 0;left: 0;background: rgba(0,0,0,.5);width: 100%;padding: 15px;color: #fff;}
+#expertList .slides li .expertDetail>div{margin-top: 12px;}
+#expertList .slides li p{color: #b0b0b0;font-size: 12px;}
+.expert .clear{width: 430px;background: #fc6b00;margin: 0 auto;padding: 27px 70px;margin-bottom: 85px;}
+.expert .clear div:first-child{width: 75px;height: 75px;background: #fd8933;color: #fff;border-radius: 32px;text-align: center;vertical-align: middle}
+.expert .clear span{font-size: 40px;margin-top: 12px;}
+.expert .clear h3{font-size: 30px;color: #fff;margin-top: 10px;margin-left: 20px;}
+.expert .clear p{color: #fff;margin-top: 7px;margin-left: 20px;font-size: 12px;}
+
+.cloud{padding: 95px 0 50px 0;}
+.cloud h4{color: #666;font-size: 16px;padding-bottom: 10px;}
+.cloud ul{margin-top: 70px;}
+.cloud ul li{padding: 0 10px;}
+.cloud ul li a{background: #f8f8f8;display: block;transform: scale(1);transition: all 1s;box-shadow: 1px 1px 20px #fff;
+    padding: 60px 20px;height: 318px;}
+.cloud ul li a:hover{background: #fff;transform:scale(1.05);box-shadow: 1px 1px 20px #ccc;}
+.cloud ul li h3{margin: 35px 0 25px 0;font-size: 18px;color: #333;}
+.cloud ul li p{font-size: 12px;line-height: 24px;color: #999}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
