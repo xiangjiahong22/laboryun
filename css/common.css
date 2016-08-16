@@ -9,6 +9,7 @@ input:focus, input:active:focus{outline: none}
 i,em{font-style: normal}
 .clear:after{display: block;content: '';clear: both;overflow: hidden;  }
 .clear{zoom:1}
+.noPadding{padding: 0!important;}
 
 
 .wrap{width: 1200px;margin: 0 auto;}
