@@ -1,5 +1,5 @@
-.header{background: #fc6b00;padding: 15px 0;color: #666;}
-.header a{padding:0 20px;border-right: 1px solid #cfcfcf;color: #666;}
+.header{background: #fc6b00;padding: 15px 0;color: #fff;}
+.header a{padding:0 20px;border-right: 1px solid #cfcfcf;color: #fff;}
 
 .nav{padding: 35px 0;background: #fafafa;border-bottom: 1px solid #e6e6e6;}
 .nav ul{margin-top: 16px;}
@@ -86,6 +86,15 @@
 .footer dl dd p{font-size: 12px;margin-top: 15px;}
 .copyRight{font-size: 12px;color: #c0c0c0;border-top: 1px solid #737372;line-height: 85px;}
 
+.login{padding: 40px 0 80px 0;}
+.login form{width: 415px;height: 500px;margin: 20px auto;border: 1px solid #e6e7e8;padding: 30px 45px;text-align: left}
+.login form h3{color: #fc6b00;font-size: 18px;border-bottom: 1px solid #e6e7e8;padding-bottom: 29px;text-align: center;margin-bottom: 10px;}
+.login form .form-group label{margin: 0px 0 10px 0;font-size: 16px;}
+.login form .form-group input{height: 45px;}
+.login form input[type="submit"]{background: #fc6b00;color: #fff;border-color: #fc6b00;font-size: 18px;}
+.login form input[type="submit"]:hover{background: #f98e3e;border-color: #f98e3e;}
+.login form>a{display: block;text-align: center;color: #666;margin-top: 20px;}
+.login .checkbox{margin: 12px 0;}
 
 
 
