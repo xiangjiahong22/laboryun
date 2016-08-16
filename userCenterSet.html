@@ -2,12 +2,13 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>申请提现</title>
+		<title>提问&回答</title>
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		
 		
 		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/jquery.plugins.js"></script>
 	</head>
 	<body>
 		<div class="wrap">
@@ -17,10 +18,10 @@
 					<dl>
 						<dt><img src="img/triggle.png" />个人信息</dt>
 						<dd><a href="userCenter.html">个人中心</a></dd>
-						<dd><a href="userCenterSet.html">账户设置</a></dd>
+						<dd><a href="userCenterSet.html" class="active">账户设置</a></dd>
 						<dd><a href="userCenterMember.html">会员中心</a></dd>
 						<dd><a href="userCenterCard.html">绑定银行卡</a></dd>
-						<dd><a href="userCenterCash.html" class="active">我要提现</a></dd>
+						<dd><a href="userCenterCash.html">我要提现</a></dd>
 					</dl>
 					<dl>
 						<dt><img src="img/triggle.png" />萝卜阿瑟社区</dt>
@@ -46,28 +47,19 @@
 				</div>
 				<div class="userRight">
 					<div class="infoModule">
-						<h1>申请提现</h1>
+						<h1 class="questionToggle"><a href="javascript:void(0)" class="active">修改头像</a><a href="javascript:void(0)">个人资料</a><a href="javascript:void(0)">修改密码</a></h1>
 						<div class="infoCon">
-							<form action="">
-								<div class="formLine">
-									<span class="tit">到账银行卡：</span>
-									<input type="text" class="inp" placeholder="输入持卡人姓名"/>
+							<div class="questionTogCon">
+								<div class="toggle">
+									sdfd									
 								</div>
-								<div class="formLine">
-									<span class="tit">提现金额：</span>
-									<input type="text" class="inp" placeholder="输入金额"/>
+								<div class="toggle hide">
+									dsfrgtrg
 								</div>
-								<div class="formLine">
-									<div class="cashInfoUl">
-										<ul>
-											<li>零钱余额:<span class="themeCr">1000元</span></li>
-											<li>提现手续费:<span class="themeCr">1000%</span></li>
-											<li>提现金额最低:<span class="themeCr">1000元</span></li>
-										</ul>
-										<input type="submit" class="themeBgBtn" value="申请提现"/>
-									<div>
+								<div class="toggle hide">
+									dsfrgtrgdsfdfg
 								</div>
-							</form>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -76,14 +68,8 @@
 		<script>
 			(function($){
 				$().ready(function(){
-					//member toggle
-					$('#memberBuy .box').on('click',function(){
-						$('#memberBuy .box').removeClass('active');
-						$(this).addClass('active');
-						
-						var memberText=$('.text',$(this)).text();
-						$('.memberChoose .level').text(memberText);
-					})
+					//question toggle
+					$('.questionToggle').toggleHide({parentEleName:'questionTogCon'})
 				})
 			})(jQuery);
 		</script>

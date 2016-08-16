@@ -158,8 +158,8 @@
 .videoCon .videoInfo h3{font-size: 16px;color: #666666;font-weight: normal;line-height: 40px;}
 .videoCon .video{}
 .score {font-size: 14px;color: #999999;}
-.score .star{display: inline-block;width: 15px;height: 15px;margin-right: -3px;}
-.score .star img{width: 15px;height: 15px;}
+.star{display: inline-block;width: 15px;height: 15px;margin-right: -3px;}
+.star img{width: 15px;height: 15px;}
 .score .scoreNum{color: #666666;margin-left: 5px;}
 .videoInfo .teacher{font-size: 14px;color: #666666;line-height: 40px;}
 .videoInfo .follow{font-size: 14px;color: #666666;}
@@ -167,23 +167,31 @@
 .videoInfo .follow .star img{width: 15px;height: 15px;display: inline-block;}
 
 
+/*expertDetails 专家详情*/
+.expertDetails{padding: 30px 50px;}
+.expertTop{text-align: center;}
+.expertTop .expertPic{text-align: center;width: 200px;height: 200px;border-radius: 100%;}
+.expertTop .name{font-size: 24px;color: #000000;margin-top: 10px;}
+.expertTop .name .level{font-size: 14px;color: #999999;}
+.expertTop .major{font-size: 14px;color: #333333;margin-top: 15px;}
 
+.expertInfoUl {margin-top: 50px;}
+.expertInfoUl li{width: 29.8%;float: left;border-right: 1px solid #e6e7e8;text-align: center;}
+.expertInfoUl li p{line-height: 45px;font-size: 14px;line-height: 45px;}
+.expertInfoUl li .tit{color: #999999;}
+.expertInfoUl li:last-child{border-right: 0;}
 
+.expertTips{clear: both;font-size: 14px;padding-top: 35px;border-bottom: 1px solid #e6e7e8;padding-bottom: 20px;}
+.expertTips .tit{float: left;display: inline-block;width: 90px;color: #999999;}
+.expertTips .con{float: left;width: 745px;line-height: 24px;;}
+.expertTips div{margin-bottom: 30px;overflow: hidden;}
+.expertBtns{text-align: center;padding: 30px 0;}
+.expertBtns .handleBtn{width: 320px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.commentArea{width: 850px;height: 174px;border:1px solid #e6e7e8;border-radius: 3px;}
+.commentStar{height: 47px;line-height: 47px;border-bottom: 1px solid #e6e7e8;padding-left: 15px;}
+.commentText{width: 820px;height: 90px;padding: 15px;border:0;resize: none;}
+.commentArea .star img{vertical-align: middle;}
 
 
 
