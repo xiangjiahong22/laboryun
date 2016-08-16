@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>发布问题</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/flexslider.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/yang.css">
+
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="wrap clear">
+    <div class="pull-left">
+      全国服务热线：400-322-3223
+    </div>
+    <div class="pull-right">
+      <a href="">免费注册</a>
+      <a href="">登录</a>
+      <a href="">消息</a>
+    </div>
+  </div>
+</div>
+
+<div class="nav">
+  <div class="wrap clear">
+    <div class="pull-left">
+      <img src="img/logo.jpg" alt="">
+    </div>
+    <div class="pull-right">
+      <ul>
+        <li class="active">首页</li>
+        <li>萝卜云
+          <ol>
+            <li>评测云</li>
+            <li>人事云</li>
+            <li>薪酬福利云</li>
+            <li>考勤云</li>
+            <li>假期云</li>
+            <li>分控云</li>
+            <li>测评云</li>
+          </ol>
+        </li>
+        <li>萝卜阿瑟
+          <ol>
+            <li>社区模式</li>
+            <li>专家模式</li>
+          </ol>
+        </li>
+        <li>学习规划图</li>
+        <li>知识库</li>
+        <li>新闻资讯</li>
+        <li>关于萝卜</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="question">
+  <div class="wrap clear">
+    <div class="col-xs-8">
+      <div class="questionDetail">
+        <h4 class="tag">金融</h4>
+        <div class="questionTitle">
+          金融牌照的作用是什么？<a href=""><span class="glyphicon glyphicon-pencil"></span>修改</a>
+        </div>
+        <a href="" class="questionAsk"><span class="glyphicon glyphicon-pencil"></span>填写补充说明</a>
+        <div>
+          <a class="share" href=""><img src="img/share.jpg" alt="">分享
+            <div class="weixinShare">
+              <div>
+                <img style="width: 20px;" src="img/weixin.png" alt="">
+                微信扫一扫
+              </div>
+              <img src="img/erweima1.jpg" alt="">
+            </div>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a class="ask" href=""><img src="img/ask.jpg" alt="">邀请回答</a>
+        </div>
+        <div class="searchUsers">
+          <div class="input-group pull-left">
+            <input type="text" class="form-control" placeholder="name" aria-describedby="basic-addon2">
+            <span style="background: #fff;" class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search"></span></span>
+          </div>
+          <span class="pull-left">搜素来邀请其他用户来更快回答</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <ul class="myQuestion">
+        <li>
+          <a href="">
+            <img src="img/question1.jpg" alt="">
+            &nbsp;&nbsp;我关注的问题
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/question2.jpg" alt="">
+            &nbsp;&nbsp;邀请我回答的问题
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="wrap clear">
+    <dl class="col-xs-3 noPadding">
+      <dt>联系我们</dt>
+      <dd>地址：中国上海市日月光大厦1401</dd>
+      <dd>服务专线：400-322-3223</dd>
+      <dd>Emali:xxxx000@xxxxx.com</dd>
+      <dd>邮编：430200</dd>
+    </dl>
+    <dl class="col-xs-3 noPadding">
+      <dt>关于我们</dt>
+      <dd><a href="">关于我们</a></dd>
+      <dd><a href="">联系我们</a></dd>
+      <dd><a href="">登录</a></dd>
+      <dd><a href="">注册</a></dd>
+    </dl>
+    <dl class="col-xs-3 noPadding">
+      <dt>友情链接</dt>
+      <dd><a href="">中国HR论坛</a></dd>
+      <dd><a href="">经济人大网</a></dd>
+      <dd><a href="">萝卜网</a></dd>
+      <dd><a href="">赤兔网</a></dd>
+    </dl>
+    <dl class="col-xs-3 noPadding">
+      <dt>关注我们</dt>
+      <dd class="clear">
+        <div class="pull-left">
+          <img src="img/erweima1.jpg" alt="">
+          <p>新浪网</p>
+        </div>
+        <div class="pull-left">
+          <img src="img/erweima2.jpg" alt="">
+          <p>微信公众号</p>
+        </div>
+      </dd>
+    </dl>
+  </div>
+  <div class="copyRight text-center">
+    Copyright 2011-2016 xxxxx.com沪ICP备 14000000号沪公网安备100010101010
+  </div>
+</div>
+
+<script>
+  $(function(){
+    $('.ask').on('click',function(){
+      $('.searchUsers').slideToggle();
+      return false;
+    })
+  })
+</script>
+
+</body>
+</html>
