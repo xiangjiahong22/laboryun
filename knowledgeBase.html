@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>发布问题</title>
+  <title>知识库</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/flexslider.css">
   <link rel="stylesheet" href="css/common.css">
@@ -14,21 +14,6 @@
   <script src="js/jquery.flexslider-min.js"></script>
 </head>
 <body>
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="header">
   <div class="wrap clear">
     <div class="pull-left">
@@ -76,53 +61,70 @@
   </div>
 </div>
 
-<div class="question">
-  <div class="wrap clear">
-    <div class="col-xs-8">
-      <div class="questionDetail">
-        <h4 class="tag">金融</h4>
-        <div class="questionTitle">
-          金融牌照的作用是什么？<a href=""><span class="glyphicon glyphicon-pencil"></span>修改</a>
-        </div>
-        <a href="" class="questionAsk"><span class="glyphicon glyphicon-pencil"></span>填写补充说明</a>
-        <div>
-          <a class="share" href=""><img src="img/share.jpg" alt="">分享
-            <div class="weixinShare">
-              <div>
-                <img style="width: 20px;" src="img/weixin.png" alt="">
-                微信扫一扫
-              </div>
-              <img src="img/erweima1.jpg" alt="">
-            </div>
-          </a>&nbsp;&nbsp;&nbsp;
-          <a class="ask" href=""><img src="img/ask.jpg" alt="">邀请回答</a>
-        </div>
-        <div class="searchUsers">
-          <div class="input-group pull-left">
-            <input type="text" class="form-control" placeholder="name" aria-describedby="basic-addon2">
-            <a style="background: #fff;" class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search"></span></a>
-          </div>
-          <span class="pull-left">搜素来邀请其他用户来更快回答</span>
+<div class="knowledgeBase">
+  <div class="wrap">
+    <div class="keySearch clear">
+      <span class="pull-left">关键字：</span>
+      <div class="input-group pull-left">
+        <input type="text" class="form-control" placeholder="输入关键字" aria-describedby="basic-addon2">
+        <a href="" class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search"></span></a>
+      </div>
+    </div>
+    <div class="articleList">
+      <h3>全部文档</h3>
+      <table class="table table-hover">
+        <thead>
+        <tr>
+          <th></th>
+          <th>下载量</th>
+          <th>时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td style="width: 60%;padding-right: 300px;">
+            <h4 class="articleTitle"><a href="">名称名称名称名称名称名称</a></h4>
+            <p>简介：名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称</p>
+          </td>
+          <td style="width: 20%">12</td>
+          <td style="width: 20%">2015-01-15</td>
+        </tr>
+        <tr>
+          <td style="width: 60%;padding-right: 300px;">
+            <h4 class="articleTitle"><a href="">名称名称名称名称名称名称名称名称</a></h4>
+            <p>简介：名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称</p>
+          </td>
+          <td style="width: 20%">12</td>
+          <td style="width: 20%">2015-01-15</td>
+        </tr>
+        <tr>
+          <td style="width: 60%;padding-right: 300px;">
+            <h4 class="articleTitle"><a href="">名称名称名称名称名称名称名称名称</a></h4>
+            <p>简介：名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称名称</p>
+          </td>
+          <td style="width: 20%">12</td>
+          <td style="width: 20%">2015-01-15</td>
+        </tr>
+        </tbody>
+      </table>
+      <div style="margin: 25px 30px;" class="page">
+        显示&nbsp;1&nbsp;到&nbsp;10&nbsp;项，共&nbsp;57&nbsp;项
+        <div class="pullRight">
+          <span class="previous"><a href="javascript:void(0)">上一页</a></span>
+          <a href="" class="active">1</a>
+          <a href="">2</a>
+          <a href="">3</a>
+          <span class="next"><a href="javascript:void(0)">下一页</a></span>
         </div>
       </div>
     </div>
-    <div class="col-xs-4">
-      <ul class="myQuestion">
-        <li>
-          <a href="">
-            <img src="img/question1.jpg" alt="">
-            &nbsp;&nbsp;我关注的问题
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <img src="img/question2.jpg" alt="">
-            &nbsp;&nbsp;邀请我回答的问题
-          </a>
-        </li>
-      </ul>
-    </div>
   </div>
+</div>
+
+<div class="notAccept wrap">
+  <h3>{文件名}HR进修之路</h3>
+  <p><span>很抱歉</span>，该文档只针对VIP会员开放，您没有查看该文档的权限。</p>
+  <p> VIP用户权益信息及开通方法见个人中心</p>
 </div>
 
 <div class="footer">
@@ -166,19 +168,6 @@
     Copyright 2011-2016 xxxxx.com沪ICP备 14000000号沪公网安备100010101010
   </div>
 </div>
-
-<script>
-  $(function(){
-    $('.ask').on('click',function(){
-      $('.searchUsers').slideToggle();
-      return false;
-    })
-    $('.questionAsk').on('click',function(){
-      $('#myModal').modal();
-      return false;
-    })
-  })
-</script>
 
 </body>
 </html>
