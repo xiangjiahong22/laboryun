@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>成为专家</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/calendar.css" />
+		
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/jquery.plugins.js"></script>
+		<script src="js/calendar.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="experter">
+				<div class="expertTog">
+					<a href="javascript:void(0)" class="active">填写基本资料</a>
+					<a href="javascript:void(0)">填写擅长方向</a>
+					<a href="javascript:void(0)">填写个人资料</a>
+					<a href="javascript:void(0)">填写工作经历</a>
+					<a href="javascript:void(0)">上传服务设置</a>
+				</div>
+				<div class="expertToggleCon">
+					<div class="toggle hide">
+						<div class="expertInfoCon">
+							<div class="top">
+								填写基本资料
+							</div>
+							<div class="infoModule">
+								<div class="infoCon">
+									<form action="">
+										<div class="leftInfo">
+											<div class="formLine">
+												<span class="tit">真实姓名：</span>
+												<input type="text" placeholder="输入真实姓名" class="inp">
+											</div>
+											<div class="formLine">
+												<span class="tit">性别：</span>
+												<input type="text" placeholder="输入性别" class="inp">
+											</div>
+											<div class="formLine">
+												<span class="tit">联系方式：</span>
+												<input type="text" placeholder="输入联系方式" class="inp">
+											</div>
+											<div class="formLine">
+												<span class="tit">所在公司：</span>
+												<input type="text" placeholder="输入所在公司" class="inp">
+											</div>
+											<div class="formLine">
+												<span class="tit">职位：</span>
+												<input type="text" placeholder="输入职位" class="inp">
+											</div>
+											<div class="formLine">
+												<span class="tit">工作年限：</span>
+												<input type="text" placeholder="输入工作年限" class="inp">
+											</div>
+											<div class="formLine">
+												<span class="tit">常驻城市：</span>
+												<input type="text" placeholder="输入常驻城市" class="inp">
+											</div>
+											<div class="formLine">
+												<span class="tit"></span>
+												<input type="submit" class="themeBgBtn" value="保存">
+											</div>
+										</div>
+										<div class="userSet">
+											<div class="currentPicWrap">
+												<img class="currentPic" alt="" src="img/currentPic.jpg">
+											</div>			
+											<div class="changeCurrentBtn">
+												<span class="btn">修改头像</span>
+												<input type="file">
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="toggle hide">
+						<div class="expertInfoCon">
+							<div class="top">
+								填写擅长方向
+							</div>
+							<div class="infoModule">
+								<div class="infoCon">
+									<form action="">
+										<div class="formLine">
+											<span class="tit">方向选择：</span>
+											<div class="styled-select minSelect">
+									          <select>
+									            <option>行政</option>
+									          </select>
+									        </div>
+									        <div class="styled-select minSelect">
+									          <select>
+									            <option>行政管理</option>
+									          </select>
+									        </div>
+										</div>
+										<div class="formLine">
+											<span class="tit">从业年限：</span>
+											<input type="text" placeholder="输入年限" class="inp">&nbsp;&nbsp;年
+										</div>
+										<div class="formLine" style="border-bottom: 1px solid #e4e4e4;padding-bottom: 30px;">
+											<span class="tit">文本标签：</span>
+											<input type="text" placeholder="输入文本标签" class="inp tagInp">&nbsp;<a href="javascript:void(0)" class="addTag">添加</a>
+											<div class="directionTag">
+												
+											</div>
+										</div>
+										<div class="formLine">
+											<span class="tit"></span>
+											<input type="submit" class="themeBgBtn" value="保存">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="toggle hide">
+						<div class="expertInfoCon">
+							<div class="top">
+								填写个人简介
+							</div>
+							<div class="infoModule">
+								<div class="infoCon">
+									<form action="">
+										<div class="formLine" style="border-bottom: 1px solid #e4e4e4;padding-bottom: 30px;">
+											<textarea name="" class="expertArea" placeholder="填写个人简历"></textarea>
+										</div>
+										<div class="formLine">
+											<span class="tit"></span>
+											<input type="submit" class="themeBgBtn" value="保存">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="toggle">
+						<div class="expertInfoCon">
+							<div class="top">
+								填写工作经历
+							</div>
+							<div class="infoModule">
+								<div class="infoCon">
+									<form action="">
+										<div class="formLine">
+											<span class="tit">时间：</span>
+											 <div class="calanderBox">
+									            <input readonly="" value="" class="calander" autocomplete="off" name="startTime" id="begTime1">
+									          </div>
+									           <div class="calanderBox">
+									            <input readonly="" value="" class="calander" autocomplete="off" name="endTime" id="endTime1">
+									          </div>
+										</div>
+										<div class="formLine">
+											<span class="tit">职位：</span>
+											<input type="text" placeholder="输入您的职位" class="inp">&nbsp;&nbsp;年
+										</div>
+										<div class="formLine" style="border-bottom: 1px solid #e4e4e4;padding-bottom: 30px;">
+											<textarea name="" class="expertArea" placeholder="填写个人简历"></textarea>
+										</div>
+										<div class="formLine">
+											<span class="tit"></span>
+											<input type="submit" class="themeBgBtn" value="保存">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			(function($){
+				$().ready(function(){
+					//question toggle
+					$('.expertTog').toggleHide({parentEleName:'expertToggleCon'})
+					
+					//addTag
+					$('.addTag').on('click',function(){
+						var tagVal=$('.tagInp').val();
+						if(!tagVal==''){
+							var tagHtml='';
+							tagHtml+='<span class="tag">';
+							tagHtml+=tagVal;
+							tagHtml+='	<a href="javascript:void(0)" class="del">x</a>';
+							tagHtml+='	<input type="hidden" value='+tagVal+'>';
+							tagHtml+='</span>';
+							$('.directionTag').append(tagHtml);
+							$('.tagInp').val('');
+						}
+					})
+					
+					$('.directionTag').on('click','.del',function(){
+						$(this).parent('.tag').remove();
+					})
+				})
+			})(jQuery);
+			
+			//获取今天日期
+			  var todayDate = new Date();
+			  var todayDateStr = "" + todayDate.getFullYear() + "-";
+			  todayDateStr += (todayDate.getMonth()+1) + "-";
+			  todayDateStr += todayDate.getDate();
+			   //日期控件
+			  var oDepDate = new Date();
+			  var oDepDate = new Date(oDepDate.getFullYear(), oDepDate.getMonth(), 1);
+			  var oBackDate = new Date();
+			  //收支明细
+			  //开始时间实例  
+			  var oDepCal1 = new Calendar( {
+			    id : "#begTime1", //触发显示日历元素ID
+			    isComp : !0,  //使用兼容模式
+			    isPopup : !0, //弹出式日历
+			    isPrevBtn : !0, //显示上月按钮
+			    isNextBtn : !0, //显示下月按钮
+			    isCloseBtn : !0, //显示关闭按钮
+			    isHoliday : 0, //节假日特殊显示
+			    isHolidayTips : !0, //显示节假日1~3天/后1~3天信息
+			    isDateInfo : 0, //显示日期信息
+			    isMessage : !0, //有日历提示信息
+			    isCalStart : !0, //标记为开始时间
+			    dateInfoClass : "date-info-start", //开始时间icon样式
+			    range : {
+			      mindate : "1990-09-22",
+			      maxdate : "2020-09-22"
+			    }, //限制范围（当天——2020-12-31）
+			    count : 2, //日历个数
+			    monthStep : 2 //切换上下月日历步长
+			      });
+			  //结束时间实例
+			  var oBackCal1 = new Calendar( {
+			    id : "#endTime1", //触发显示日历元素ID
+			    isComp : !0,  //使用兼容模式
+			    isPopup : !0, //弹出式日历
+			    isPrevBtn : !0, //显示上月按钮
+			    isNextBtn : !0, //显示下月按钮
+			    isCloseBtn : !0, //显示关闭按钮
+			    isHoliday : 0, //节假日特殊显示
+			    isHolidayTips : !0, //显示节假日1~3天/后1~3天信息
+			    isDateInfo : 0, //显示日期信息
+			    isMessage : !0, //有日历提示信息
+			    isCalEnd : !0, //标记为结束时间
+			    dateInfoClass : "date-info-end", //结束时间icon样式
+			    range : {
+			      mindate : "1990-09-22",
+			      maxdate : "2020-09-22"
+			    }, //限制范围（当天——2020-12-31）
+			    count : 2, //日历个数
+			    monthStep : 2 //切换上下月日历步长 
+			      });
+			
+			 
+				  
+				  //日期点击函数   
+				  function dateClick(obj) {  
+				    switch (this.triggerNode.id) {
+				    case "begTime1":
+				      oBackCal1.range.mindate=obj["data-date"];
+				      oBackCal1.startDate = this.startDate = obj["data-date"];
+				      oBackCal1.render(this.startDate);
+				      this.render(this.startDate);
+				      oBackCal1.focus();
+				      break;
+				    case "endTime1":
+				      oDepCal1.endDate = this.endDate = obj["data-date"];
+				      oDepCal1.render(this.startDate);
+				      this.render(this.endDate);
+				      break;
+				    }
+				  }
+				  
+				  //日期点击自定义事件  
+				  oDepCal1.on("dateClick", dateClick);
+				  oBackCal1.on("dateClick", dateClick);
+				  //为返程实例添加className, 主要为了样式需要
+				  oBackCal1.container.className = "cal-end";
+				  //开启返程实例的鼠标移动范围
+				  oBackCal1.showRange();
+				  //开启键盘事件
+				  oDepCal1.CalStart = oBackCal1.CalStart = oDepCal1;
+				  oDepCal1.CalEnd = oBackCal1.CalEnd = oBackCal1;
+				  oDepCal1.keyup();
+				  oBackCal1.keyup();
+			
+		</script>
+	</body>
+</html>
