@@ -199,7 +199,40 @@
 .concernList ul li:last-child{border: none;}
 .concernList ul li span{color: #999;}
 
+.questionList .input-group{height: 42px;width: 400px;}
+.questionList input{height: 42px;}
+.questionList input[type="submit"]{background: #6eb92a;color: #fff;border-color: #6eb92a;font-size: 14px;margin-left: 20px;}
+.questionList input[type="submit"]:hover{background: #7eb24f;border-color:#7eb24f;}
+.questionList h4{font-size: 15px;line-height: 24px;margin: 18px 0;}
+.questionList ul{border:1px solid #ededed;}
+.questionList ul li{padding: 25px 20px 28px 20px;border-bottom: 1px solid #ededed;}
+.questionList ul li:last-child{border: none;}
+.questionList ul li .col-xs-2 img{border-radius: 50%;}
+.questionList ul li .col-xs-10>a span{font-size: 20px;color: #d8d8d8;}
+.questionList ul li .col-xs-10>a span:hover{color: #999;}
+.questionList ul li span{color: #999;}
+.questionList ul li span a{display: inline-block;height: 24px;background: #fda666;border-radius: 12px;color: #fff;padding: 0 15px;
+    line-height: 24px;margin-left: 10px;}
+.questionList ul li .title{color: #6eb92a;font-size: 16px;line-height: 28px;padding: 5px 0;display: block}
+.questionList ul li p{font-size: 12px;line-height: 28px;padding: 5px 0;}
 
+.concerned{border:1px solid #ededed;padding: 25px;}
+.concernMan{border-bottom: 1px solid #ededed;padding-bottom: 10px;}
+.concernMan h3{font-size: 18px;line-height: 28px;padding-bottom: 15px;}
+.concernMan img{border-radius: 50%;}
+.concerned>h4{color: #999;height: 75px;line-height: 75px;border-bottom: 1px solid #ededed;}
+.concerned>h4 span a{color: #fc6b00;font-size: 18px;margin-right: 10px;}
+.concerned>h4>a{display: block;width: 100px;height:30px;border:1px solid #dcdcdc;color: #999;font-size: 12px;line-height: 29px;
+    border-radius: 4px;text-align: center;margin-top: 24px;}
+.concerned ul li{padding: 25px 0;border-bottom: 1px solid #ededed;}
+.concerned ul li:last-child{border: none;}
+.concerned ul li>div{margin-right: 25px;}
+.concerned ul li h3{font-size: 16px;line-height: 28px;}
+.concerned ul li h4{font-size: 12px;line-height: 28px;}
+.concerned ul li img{border-radius: 50%;}
+.concerned ul li p{font-size: 12px;line-height: 28px;color: #999;}
+.concernList>div.clear{border-bottom: 1px solid #ededed;margin-bottom: 15px;}
+.concernList>div.clear p{padding: 0 0 20px 0;color: #666;}
 
 
 
