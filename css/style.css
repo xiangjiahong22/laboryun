@@ -267,35 +267,52 @@
 
 .expertArea{width: 715px;height: 210px;border:1px solid #e4e4e4;margin-left: 55px;resize: none;border-radius: 3px;padding: 15px;}
 
+.experter .expertWaysUl{border-bottom: 1px solid #e4e4e4;overflow: hidden;padding: 0 0 30px 40px;}
+.experter .expertWaysUl li{width: 175px;padding: 15px;background: #f1f1f1;float: left;margin-right: 60px;}
+.experter .expertWaysUl .icon{display: inline-block;width: 50px;vertical-align: middle;margin-right: 20px;}
+.experter .expertWays{font-size: 18px;color: #333333;}
+.experter .expertWaysUl .infoIn{font-size: 14px;color: #333333;margin-top: 20px;}
+.experter .expertWaysUl .inp{width: 90px;height: 30px;border:1px solid #c9c9c9;border-radius: 3px;padding: 0 5px;}
+.experter .expertWaysUl .topTit{padding-left: 10px;}
+.experter .infoRadio{text-align: center;margin-top: 5px;}
 
+/*experterDetails 专家简介*/
+.experterDetails{overflow: hidden;}
+.experterArticle{width: 850px;float: left;}
+.experterAside{width: 240px;float: right;}
+.experterIntro{border: 1px solid #dfdfdf;text-align: center;}
+.experterIntro .experterPic img{width: 100px;height: 100px;border-radius: 100%;border: 5px solid rgba(191, 191, 191, 0.5);
+	margin-top: -65px;}
+.experterIntro .name{font-size: 20px;font-weight: normal;margin: 15px 0 10px;}
+.experterIntro .major{font-size: 14px;margin-bottom: 10px;}
+.experterIntro .workTime{font-size: 14px;}
+.experterIntro .workTime .tit{color: #888}
+.expericeInfo{background:#f9fbfc;overflow: hidden;padding: 15px 140px;margin-top: 30px;}
+.expericeInfo li{width: 33%;float: left;border-right: 1px solid #dfdfdf;font-size: 14px;}
+.expericeInfo li .themeCr{font-size: 18px;}
+.expericeInfo li .themeCr{font-size: 18px;}
+.expericeInfo li .tit{color: #bfbfbf;}
+.expericeInfo li img{vertical-align: sub;margin-right: 8px;}
 
+.experterModule{position: relative;border: 1px solid #dfdfdf;margin-top: 40px;padding: 20px;margin-bottom: 10px;}
+.experterModule .icon{position: absolute;left: 47.5%;top: -20px;}
+.experterModule h2{font-size: 16px;font-weight: normal;margin-top: 10px;text-align: center;}
+.experterModule h3{font-size: 18px;color: #2594e9;font-weight: normal;margin-bottom: 10px;}
+.goodDirec p{font-size: 14px;line-height: 20px;}
+.goodDirec .tit{color: #888;}
 
+.experterModule{font-size: 14px;}
+.experterModule p{margin-bottom: 20px;line-height: 26px;margin-top: 10px;}
+.experterModule ul{margin-bottom: 20px;line-height: 28px;}
+.experterModule ul li .briefIntro{max-width: 720px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.experterBuy li{border: 1px solid #dfdfdf;text-align: center;padding: 30px 0;margin-bottom: 30px;}
+.experterBuy li img{width: 50px;}
+.experterBuy li h4{font-size: 16px;line-height: 40px;}
+.experterBuy .price{font-size: 16px;}
+.experterBuy .price .themeCr{font-size: 30px;font-weight: 600;}
+.buyWaysBtn{width: 120px;height: 34px;background: #fc6b00;border-radius: 3px;display: inline-block;color: #fff;
+	font-size: 16px;line-height: 34px;margin-top: 15px;}
 
 
 

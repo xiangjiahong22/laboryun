@@ -19,10 +19,10 @@
 					<a href="javascript:void(0)">填写擅长方向</a>
 					<a href="javascript:void(0)">填写个人资料</a>
 					<a href="javascript:void(0)">填写工作经历</a>
-					<a href="javascript:void(0)">上传服务设置</a>
+					<a href="javascript:void(0)">填写服务设置</a>
 				</div>
 				<div class="expertToggleCon">
-					<div class="toggle hide">
+					<div class="toggle">
 						<div class="expertInfoCon">
 							<div class="top">
 								填写基本资料
@@ -139,7 +139,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="toggle">
+					<div class="toggle hide">
 						<div class="expertInfoCon">
 							<div class="top">
 								填写工作经历
@@ -158,11 +158,69 @@
 										</div>
 										<div class="formLine">
 											<span class="tit">职位：</span>
-											<input type="text" placeholder="输入您的职位" class="inp">&nbsp;&nbsp;年
+											<input type="text" placeholder="输入您的职位" class="inp">
 										</div>
 										<div class="formLine" style="border-bottom: 1px solid #e4e4e4;padding-bottom: 30px;">
-											<textarea name="" class="expertArea" placeholder="填写个人简历"></textarea>
+											<textarea name="" class="expertArea" placeholder="填写工作详情"></textarea>
 										</div>
+										<div class="formLine">
+											<span class="tit"></span>
+											<input type="submit" class="themeBgBtn" value="保存">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="toggle hide">
+						<div class="expertInfoCon">
+							<div class="top">
+								填写服务设置
+							</div>
+							<div class="infoModule">
+								<div class="infoCon">
+									<form action="">
+										<ul class="expertWaysUl">
+											<li>
+												<div class="expertWays">
+													<div class="topTit">
+														<img src="img/expertWayIcon1.png" class="icon" alt="" />图文约谈
+													</div>
+													<div class="infoIn">
+														<input type="text" class="inp" disabled="disabled"/>&nbsp;&nbsp;&nbsp;元/次
+													</div>
+													<div class="infoRadio">
+														<input type="radio" name=""/>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="expertWays">
+													<div class="topTit">
+														<img src="img/expertWayIcon1.png" class="icon" alt="" />图文约谈
+													</div>
+													<div class="infoIn">
+														<input type="text" class="inp" disabled="disabled"/>&nbsp;&nbsp;&nbsp;元/次
+													</div>
+													<div class="infoRadio">
+														<input type="radio" name=""/>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="expertWays">
+													<div class="topTit">
+														<img src="img/expertWayIcon1.png" class="icon" alt="" />图文约谈
+													</div>
+													<div class="infoIn">
+														<input type="text" class="inp" disabled="disabled"/>&nbsp;&nbsp;&nbsp;元/次
+													</div>
+													<div class="infoRadio">
+														<input type="radio" name=""/>
+													</div>
+												</div>
+											</li>
+										</ul>
 										<div class="formLine">
 											<span class="tit"></span>
 											<input type="submit" class="themeBgBtn" value="保存">
@@ -198,6 +256,14 @@
 					
 					$('.directionTag').on('click','.del',function(){
 						$(this).parent('.tag').remove();
+					})
+					
+					//prop radio
+					$('.expertWaysUl li').on('click',function(){
+						$('.expertWaysUl li input[type="radio"]').prop('checked',false);
+						$('.expertWaysUl li .inp').prop('disabled',true);
+						$('.expertWaysUl li').eq($(this).index()).find('input[type="radio"]').prop('checked',true);
+						$('.expertWaysUl li').eq($(this).index()).find('.inp').prop('disabled',false);
 					})
 				})
 			})(jQuery);
