@@ -5,7 +5,7 @@
 
 /*导航栏*/
 .nav{padding: 35px 0;background: #fafafa;border-bottom: 1px solid #e6e6e6;}
-.nav ul{margin-top: 16px;}
+.nav ul{margin-top: 20px;}
 .nav ul>li{float: left;width: 110px;text-align: center;cursor: pointer;padding: 10px 0;margin:0 4px;position: relative;border:1px solid transparent;}
 .nav ul>li:hover{color: #fc6b00;border:1px solid #fc6b00;}
 .nav ul>li:hover ol{display: block}
@@ -130,6 +130,7 @@
 #publish form{padding: 29px;}
 #publish form input[type="submit"]{background: #fc6b00;color: #fff;border-color: #fc6b00;font-size: 14px;outline: none;
     line-height: 14px;width: 130px;height: 43px;}
+#publish form input[type="submit"]:hover{background: #f98e3e;border-color: #f98e3e;}
 
 /*知识库*/
 .knowledgeBase{padding-top: 34px;}
@@ -175,8 +176,28 @@
 .downLoad{display: block;width: 350px;height: 70px;margin: 45px auto;background: #fc6b00;color: #fff;line-height: 70px;
     text-align: center;font-size: 20px;border-radius: 5px;}
 
-
-
+/*分配奖励*/
+.questionAnswer{border-top: 1px solid #ededed;margin-top: 15px;padding: 20px 0;}
+.questionAnswer h3{font-size: 14px;padding-bottom: 20px;border-bottom: 1px solid #ededed;}
+.questionAnswer ul li{padding: 20px 0;border-bottom: 1px solid #ededed;}
+.questionAnswer ul li h4{height: 40px;line-height: 40px; margin-bottom: 8px;}
+.questionAnswer ul li h4 img{max-height: 100%;}
+.questionAnswer ul li p{font-size: 12px;line-height: 24px;}
+.questionAnswer ul li div{margin-top: 15px;}
+.questionAnswer input[type="submit"]{background: #fc6b00;color: #fff;border-color: #fc6b00;font-size: 14px;outline: none;
+    line-height: 14px;width: 130px;height: 43px;margin-top: 25px;}
+.questionAnswer input[type="submit"]:hover{background: #f98e3e;border-color: #f98e3e;}
+.concern{display: block;width: 125px;height: 42px;color: #fff;line-height: 42px;background: #6eb92a;text-align: center;
+    border-radius: 6px;margin-bottom: 15px;}
+.concern.active{background: #eee;color: #333;}
+.concernList{border: 1px solid #ededed;padding: 16px;}
+.concernList h4{color: #999;font-size: 14px;line-height: 28px;}
+.concernList div{border-bottom: 1px solid #ededed;}
+.concernList div img{padding:20px 20px 20px 0;}
+.concernList h3{font-size: 16px;line-height: 28px;padding: 15px 0;}
+.concernList ul li{padding-bottom: 15px;border-bottom: 1px solid #ededed;color: #333;font-size: 12px;line-height: 30px;}
+.concernList ul li:last-child{border: none;}
+.concernList ul li span{color: #999;}
 
 
 
