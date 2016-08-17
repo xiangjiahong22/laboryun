@@ -224,15 +224,21 @@
 .concerned>h4 span a{color: #fc6b00;font-size: 18px;margin-right: 10px;}
 .concerned>h4>a{display: block;width: 100px;height:30px;border:1px solid #dcdcdc;color: #999;font-size: 12px;line-height: 29px;
     border-radius: 4px;text-align: center;margin-top: 24px;}
-.concerned ul li{padding: 25px 0;border-bottom: 1px solid #ededed;}
-.concerned ul li:last-child{border: none;}
-.concerned ul li>div{margin-right: 25px;}
-.concerned ul li h3{font-size: 16px;line-height: 28px;}
-.concerned ul li h4{font-size: 12px;line-height: 28px;}
-.concerned ul li img{border-radius: 50%;}
-.concerned ul li p{font-size: 12px;line-height: 28px;color: #999;}
+.concerned .concernedList li{padding: 25px 0;border-bottom: 1px solid #ededed;}
+.concerned .concernedList li:last-child{border: none;}
+.concerned .concernedList li>div{margin-right: 25px;}
+.concerned .concernedList li h3{font-size: 16px;line-height: 28px;}
+.concerned .concernedList li h4{font-size: 12px;line-height: 28px;}
+.concerned .concernedList li img{border-radius: 50%;}
+.concerned .concernedList li p{font-size: 12px;line-height: 28px;color: #999;}
 .concernList>div.clear{border-bottom: 1px solid #ededed;margin-bottom: 15px;}
 .concernList>div.clear p{padding: 0 0 20px 0;color: #666;}
+
+.concerned .ask,.concerned .answer{color: #6eb92a;width: 80px;height: 25px;line-height: 25px;text-align: center;background: #ededed;
+    border-radius: 4px;margin: 20px 0;font-size: 14px;}
+.answerList li{padding: 10px 200px 10px 0;}
+.answerList li div{line-height: 28px;}
+.answerList li p{font-size: 12px;color: #999;line-height: 28px;white-space: nowrap;text-overflow: ellipsis;}
 
 
 

@@ -14,6 +14,47 @@
   <script src="js/jquery.flexslider-min.js"></script>
 </head>
 <body>
+<div class="modal fade" id="publish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="top:100px;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="border:none;">
+      <div class="modal-body noPadding">
+        <h3 class="text-center">提交
+          <a href="" class="pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove-circle"></span></a>
+        </h3>
+
+        <form action="">
+          <div class="form-group">
+            <label for="title">标题</label>
+            <input id="title" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="content">问题说明（可选）</label>
+            <textarea name="" id="content" rows="5" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="tag">添加话题</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group clear">
+            <div class="pull-left">
+              <span>问题标价</span>
+              <input class="form-control" type="text" style="display: inline-block;width: 92px;">
+              <span>元</span>
+            </div>
+            <div class="pull-right">
+              <input type="submit" class="form-control" value="发布">
+            </div>
+          </div>
+        </form>
+      </div>
+      <!--<div class="modal-footer">-->
+      <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div>
+
 <div class="header">
   <div class="wrap clear">
     <div class="pull-left">
@@ -70,7 +111,7 @@
             <input type="text" class="form-control" placeholder="输入关键字" aria-describedby="basic-addon2">
             <a href="" class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search"></span></a>
           </div>
-          <input type="submit" class="form-control pull-left" style="width:180px;" value="提问">
+          <input type="submit" id="ask" class="form-control pull-left" style="width:180px;" value="提问">
         </form>
         <h4><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;最新动态</h4>
         <ul>
@@ -225,5 +266,14 @@
   </div>
 </div>
 
+
+<script>
+  $(function(){
+    $('#ask').on('click',function(){
+      $('#publish').modal();
+      return false;
+    })
+  })
+</script>
 </body>
 </html>
