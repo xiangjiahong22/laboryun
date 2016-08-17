@@ -15,9 +15,13 @@ i,em{font-style: normal}
 .wrap{width: 1200px;margin: 0 auto;min-width: 1200px;}
 .pullRight{float: right;}
 .pullLeft{float: left}
+.textLeft{text-align: left;}
+.textRight{text-align: right;}
+.textCenter{text-align: center;}
 .hide{display: none;}
 .viceCr{color: #6eb92a;}
 .themeCr{color: #fc6b00;}
+.img-circle{border-radius: 100%;}
 
 .themeBtn{display: inline-block;width: 103px;height: 40px;line-height: 40px;text-align: center;font-size: 14px;border:1px solid #fc6b00;
 	border-radius: 3px;color: #fc6b00;}
@@ -35,7 +39,7 @@ i,em{font-style: normal}
 a.themeBgBtn,span.themeBgBtn{line-height: 40px;}
 span.themeBgBtn{cursor: default;}
 /*翻页*/
-.page{font-size: 12px;margin-bottom: 30px;overflow: hidden;margin-top: 25px;}
+.page{font-size: 12px;margin-bottom: 30px;overflow: hidden;margin-top: 25px;clear: both;}
 .page a{color: #777777;display: inline-block;padding: 5px 9px;border: 1px solid #dddddd;float: left;border-left: 0}
 .page a:hover,.page a:focus{background: #f4f4f4;color: #777777;}
 .page .previous a{border-left: 1px solid #ddd;border-bottom-left-radius: 3px;border-top-left-radius: 3px;}
