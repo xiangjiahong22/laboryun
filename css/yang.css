@@ -239,10 +239,31 @@
 .answerList li{padding: 10px 200px 10px 0;}
 .answerList li div{line-height: 28px;}
 .answerList li p{font-size: 12px;color: #999;line-height: 28px;white-space: nowrap;text-overflow: ellipsis;}
+.questionDes h4{color: #999;font-size: 14px;line-height: 28px;padding: 10px 0 20px 0;border-bottom: 1px solid #ededed;}
+.questionDes span{color: #999;font-size: 12px;line-height: 24px;padding: 15px 0;display: block}
+.questionDes p{font-size: 12px;line-height: 28px;}
 
+.myConcern h3{padding: 10px 0 30px 0;border-bottom: 1px solid #ededed;font-size: 18px;line-height: 28px;}
+.myConcern ul li{padding: 20px 0;border-bottom: 1px solid #ededed;}
+.myConcern ul li p{font-size: 12px;line-height: 26px;color: #999;}
+.myConcern ul li p a{color: #999;}
+.myConcern ul li p a:hover{color: #666;}
 
+/*消息*/
+.message{margin: 50px 0;}
+.message .wrap{border: 1px solid #ededed;}
+.message h3{background: #f2f2f2;border-bottom: 1px solid #ededed;padding: 25px 18px;color: #666;font-size: 18px;line-height: 18px;}
+.message h3 span{vertical-align: middle}
+.message ul li{padding: 35px 40px;border-bottom: 1px solid #ededed;color: #999;}
+.message ul li:last-child{border: none;}
+.message ul li a{color: #666;}
 
-
+/*支付*/
+.pay{margin: 50px 0;}
+.pay .wrap{border: 1px solid #ededed;}
+.pay ul li{padding: 20px 40px;border-bottom: 1px solid #ededed;vertical-align: middle}
+.pay ul li input[type="submit"]{background: #fc6b00;color: #fff;border-color: #fc6b00;font-size: 18px;margin-left: 20px;
+    width: 140px;height: 50px;}
 
 
 
