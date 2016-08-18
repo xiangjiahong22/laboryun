@@ -240,7 +240,7 @@
 
 /*experter成为专家*/
 .experter .expertTog{margin: 40px 0;overflow: hidden;}
-.expertTog a{display: inline-block;width: 19.8%;height: 63px;line-height: 63px;text-align: center;background: #e4e4e4;color: #333333;
+.expertTog a{display: inline-block;width: 24.8%;height: 63px;line-height: 63px;text-align: center;background: #e4e4e4;color: #333333;
 	font-size: 15px;float: left;border-right: 1px solid #efeff0;}
 .expertTog a:last-child{border: none;}
 .expertTog a.active{background: #fc6b00;color:#fff;}
