@@ -48,7 +48,7 @@
 
 .infoModule table{width: 100%;border-collapse:collapse;color: #666666;margin-top: 20px;}
 .infoModule table thead{background: #fafafb;line-height: 43px;font-weight: normal;}
-.infoModule table td,.infoModule table th{border:#e6e7e8 solid 1px; padding-left: 10px; font-weight: normal;text-align: left;}
+.infoModule table td,.infoModule table th{border:#fff solid 1px; padding-left: 10px; font-weight: normal;text-align: left;}
 .infoModule table td{line-height: 54px;}
 
 /*userCenterCash 我要提现*/
@@ -417,9 +417,10 @@
 .learnSignUp .module .picShow{text-align: center;}
 .learnSignUp .module .picShow img{display: inline-block;max-width: 1200px;}
 
-
-
-
+.userCenterTable tr td,.userCenterTable tr th{text-align: center;}
+.userCenterTable tr th{background: #6eb929;color: #fff;}
+.userCenterTable tbody tr:nth-of-type(2n) td{background: #d1e1c4;}
+.userCenterTable tbody tr td{background: #deead4;}
 
 
 
