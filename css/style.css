@@ -421,6 +421,7 @@
 .userCenterTable tr th{background: #6eb929;color: #fff;}
 .userCenterTable tbody tr:nth-of-type(2n) td{background: #d1e1c4;}
 .userCenterTable tbody tr td{background: #deead4;}
+.userCenterTable tbody tr td img{vertical-align: middle;}
 
 
 
